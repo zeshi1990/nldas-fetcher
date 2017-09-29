@@ -51,4 +51,4 @@ def fetch_nldas(dst_dir, cookies_dir, date_start, date_end):
         temp_date += timedelta(days=1)
 
 
-fetch_nldas('/home/zeshi/dev/NLDAS/data', '/home/zeshi/.urs_cookies', date(2013, 1, 1), date(2014, 12, 31))
+fetch_nldas('/home/zeshi/dev/NLDAS/data', '/home/zeshi/.urs_cookies', date(2016, 1, 1), date(2017, 9, 1))
